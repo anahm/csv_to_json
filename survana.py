@@ -15,7 +15,7 @@ print filename
 print row_num
 
 # open csv
-input = open(filename, 'r')
+input = open(filename, 'rU')
 output = open('json_output.txt', 'w');
 
 # find out number of rows and columns
